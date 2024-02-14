@@ -20,14 +20,30 @@ nav{
         gap: 2rem;
         a{
             color: $color6;
-            font-weight: 900;
+            font-weight: 700;
             transition: all 0.2s;
             letter-spacing: 1px;
 
             &:hover{
                 color: $color3;
-
+                
             }
         }    
      }
+
+     > a > button{
+         border: 2px solid $color6_1;
+         padding: 0.5rem 2rem;
+        background-color: $color1;
+        cursor: pointer;
+          color: $color6;
+          letter-spacing: 1px;
+          font-weight: 500;
+          transition: all 0.3s;
+            &:hover {
+                background-color: $color6;
+                color: $color1;
+
+            }
+        }
 }
